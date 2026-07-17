@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@import "../styles/theme.css";
+@import "../styles/components.css";
+@import "../styles/animations.css";
+
+:root {
+  font-family: var(--font-sans);
+  color: var(--color-text-body);
+  background: var(--color-surface-card);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html { scroll-behavior: smooth; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+img { display: block; max-width: 100%; }
+#app { min-height: 100vh; }

@@ -1,0 +1,12 @@
+@theme {
+  --font-sans: "Inter", "Segoe UI", Arial, sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --color-coffee: #2b1b12;
+  --color-roast: #6f432a;
+  --color-forest: #365c32;
+  --color-olive: #718355;
+  --color-cream: #f4e9d8;
+  --color-beige: #fbf6ee;
+  --color-gold: #c49a57;
+  --color-warm-white: #fffdf8;
+}
