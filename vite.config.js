@@ -5,7 +5,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig(({ command }) => ({
   base: command === 'build'
-    ? '/cafe-del-monte/'
+    ? '/cafe-delmonte/'
     : '/',
 
   plugins: [
