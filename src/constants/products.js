@@ -1,6 +1,0 @@
-export const PRODUCTS = [
-  { name: 'CATIMOR', description: 'Café balanceado y aromático, con notas dulces y frutales. Cuerpo medio, acidez suave y sabor persistente.', price: 'S/ 65 por kilo', notes: 'Dulce · Frutal' },
-  { name: 'GUEISHA CON CATIMOR', badge: 'Lo más vendido', description: 'Café de perfil excepcional, con notas florales, frutales y cítricas. Cuerpo sedoso, acidez brillante y un final dulce inolvidable.', price: 'S/ 95 por kilo', notes: 'Floral · Frutal · Cítrico' },
-  { name: 'GEISHA', description: 'Café de aroma floral y notas frutales únicas. Cuerpo sedoso, acidez brillante y un final dulce inolvidable.', price: 'S/ 170 por kilo', notes: 'Floral · Frutal' },
-  { name: 'JAVA', description: 'Café balanceado con notas achocolatadas y frutales. Cuerpo medio, acidez suave y sabor persistente.', price: 'S/ 80 por kilo', notes: 'Chocolate · Frutal' },
-]
