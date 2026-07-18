@@ -1,6 +1,43 @@
 [
-  { "id": "catimor", "name": "CATIMOR", "description": "Café balanceado y aromático, con notas dulces y frutales. Cuerpo medio, acidez suave y sabor persistente.", "price": "S/ 65 por kilo", "notes": "Dulce · Frutal" },
-  { "id": "gueisha-catimor", "name": "GUEISHA CON CATIMOR", "badge": "Lo más vendido", "description": "Café de perfil excepcional, con notas florales, frutales y cítricas. Cuerpo sedoso, acidez brillante y un final dulce inolvidable.", "price": "S/ 95 por kilo", "notes": "Floral · Frutal · Cítrico" },
-  { "id": "geisha", "name": "GEISHA", "description": "Café de aroma floral y notas frutales únicas. Cuerpo sedoso, acidez brillante y un final dulce inolvidable.", "price": "S/ 170 por kilo", "notes": "Floral · Frutal" },
-  { "id": "java", "name": "JAVA", "description": "Café balanceado con notas achocolatadas y frutales. Cuerpo medio, acidez suave y sabor persistente.", "price": "S/ 80 por kilo", "notes": "Chocolate · Frutal" }
+  {
+    "id": "catimor",
+    "name": "CATIMOR CON CATURRA",
+    "image": "bolsa-caturra-catimor.png",
+    "description": "Café dulce y equilibrado, de cuerpo cremoso y acidez suave.",
+    "price": "S/ 65 por kilo",
+    "notes": "Chocolate · Panela · Almendra",
+    "altitude": "1500 msnm",
+    "body": 5
+  },
+  {
+    "id": "gueisha-catimor",
+    "name": "GEISHA CON CATIMOR",
+    "image": "bolsa-geisha-catimor.png",
+    "badge": "Lo más vendido",
+    "description": "Café aromático y dulce, con cuerpo redondo y acidez cítrica moderada.",
+    "price": "S/ 95 por kilo",
+    "notes": "Caramelo · Naranja · Chocolate",
+    "altitude": "1500–2000 msnm",
+    "body": 4
+  },
+  {
+    "id": "geisha",
+    "name": "GEISHA",
+    "image": "bolsa-geisha.png",
+    "description": "Café floral y elegante, de cuerpo sedoso y acidez brillante.",
+    "price": "S/ 170 por kilo",
+    "notes": "Jazmín · Durazno · Mandarina",
+    "altitude": "1900–2000 msnm",
+    "body": 2
+  },
+  {
+    "id": "java",
+    "name": "JAVA",
+    "image": "bolsa-java.png",
+    "description": "Café aromático y frutal, con cuerpo sedoso y acidez limpia.",
+    "price": "S/ 80 por kilo",
+    "notes": "Durazno · Mandarina · Miel",
+    "altitude": "1850 msnm",
+    "body": 3
+  }
 ]
