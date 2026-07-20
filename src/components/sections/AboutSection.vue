@@ -66,10 +66,7 @@ import coffeeHandsCherries from "@/assets/images/coffee-hands-cherries.webp";
             <dt class="text-xs font-bold uppercase tracking-wider text-forest">
               Proceso
             </dt>
-            <dd class="mt-2 font-display text-xl">
-              Lavado o honey, con secado meticuloso para preservar aromas
-              limpios.
-            </dd>
+            <dd class="mt-2 font-display text-xl">Natural, Lavado y Honey</dd>
           </div>
           <div class="border-l-2 border-gold pl-4">
             <dt class="text-xs font-bold uppercase tracking-wider text-forest">

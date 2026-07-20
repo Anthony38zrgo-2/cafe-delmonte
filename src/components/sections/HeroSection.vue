@@ -29,15 +29,16 @@ const { whatsappUrl } = useWhatsApp();
         <p
           class="mb-6 flex items-center gap-3 text-xs font-bold uppercase tracking-[.24em] text-gold"
         >
-          <span class="h-px w-10 bg-gold"></span>Café de especialidad peruano
+          <span class="h-px w-10 bg-gold"></span>CAFÉ DE ESPECIALIDAD DE JAÉN,
+          CAJAMARCA
         </p>
         <h1
           class="font-display text-5xl font-bold leading-[.98] tracking-[-.035em] sm:text-6xl lg:text-8xl"
         >
-          Nuestro café,<br /><span class="text-cream">nuestra pasión</span>
+          El carácter de Jaén<br /><span class="text-cream">en cada taza</span>
         </h1>
         <p class="mt-7 max-w-xl text-lg leading-8 text-cream/90 sm:text-xl">
-          {{ COMPANY_INFO.description }}. Del cafetal de Jaén hasta tu taza.
+          {{ COMPANY_INFO.description }}.
         </p>
         <div class="mt-9 flex flex-col gap-3 sm:flex-row">
           <a href="#productos" class="btn-light"
@@ -68,17 +69,19 @@ const { whatsappUrl } = useWhatsApp();
             <dt
               class="text-[10px] font-bold uppercase tracking-wider text-gold"
             >
-              Tueste
+              Procesos
             </dt>
-            <dd class="mt-1 font-display text-lg">Medio</dd>
+            <dd class="mt-1 font-display text-lg">Natural, Lavado y Honey</dd>
           </div>
           <div>
             <dt
               class="text-[10px] font-bold uppercase tracking-wider text-gold"
             >
-              Envíos
+              Tueste
             </dt>
-            <dd class="mt-1 font-display text-lg">Todo el Perú</dd>
+            <dd class="mt-1 font-display text-lg">
+              Desarrollado para cada perfil
+            </dd>
           </div>
         </dl>
       </div>
