@@ -25,7 +25,7 @@ import coffeeHandsCherries from "@/assets/images/coffee-hands-cherries.webp";
           decoding="async"
         />
         <div
-          class="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-forest/10 to-coffee/95"
+          class="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-coffee/30 to-coffee/95"
         ></div>
         <figcaption
           class="absolute inset-x-0 bottom-0 p-7 text-warm-white sm:p-9"
