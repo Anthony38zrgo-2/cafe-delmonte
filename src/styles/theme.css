@@ -10,3 +10,23 @@
   --color-gold: #c49a57;
   --color-warm-white: #fffdf8;
 }
+
+:root {
+  --surface-glass: rgb(255 253 248 / 0.72);
+  --surface-glass-strong: rgb(255 253 248 / 0.9);
+  --surface-dark-glass: rgb(43 27 18 / 0.82);
+  --line-light: rgb(255 255 255 / 0.58);
+  --line-coffee: rgb(111 67 42 / 0.16);
+  --shadow-aero: 0 22px 55px -28px rgb(43 27 18 / 0.34);
+  --shadow-aero-hover: 0 28px 65px -28px rgb(43 27 18 / 0.42);
+}
+
+:root {
+  --surface-glass: rgb(255 253 248 / 0.72);
+  --surface-glass-strong: rgb(255 253 248 / 0.9);
+  --surface-dark-glass: rgb(43 27 18 / 0.82);
+  --line-light: rgb(255 255 255 / 0.58);
+  --line-coffee: rgb(111 67 42 / 0.16);
+  --shadow-aero: 0 22px 55px -28px rgb(43 27 18 / 0.34);
+  --shadow-aero-hover: 0 28px 65px -28px rgb(43 27 18 / 0.42);
+}

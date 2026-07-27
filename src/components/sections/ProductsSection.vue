@@ -29,7 +29,7 @@ const closeOrder = async () => {
 <template>
   <section
     id="productos"
-    class="section-space bg-beige"
+    class="products-section section-space bg-beige"
     aria-labelledby="products-title"
   >
     <div class="page-container">
@@ -47,7 +47,7 @@ const closeOrder = async () => {
         <article
           v-for="(product, index) in products"
           :key="product.id"
-          class="group relative flex min-h-[28rem] overflow-hidden rounded-[2rem] border shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+          class="product-card group relative flex min-h-[28rem] overflow-hidden rounded-[2rem] border shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl"
           :class="
             index === 1
               ? 'border-gold bg-coffee text-warm-white'
@@ -194,7 +194,7 @@ const closeOrder = async () => {
           </div>
           <figure
             v-if="getProductImage(product.image)"
-            class="relative z-10 my-7 mr-4 h-[15rem] w-[6rem] shrink-0 self-start overflow-hidden rounded-[1.5rem] border shadow-inner sm:my-9 sm:mr-7 sm:h-[20rem] sm:w-[8rem] md:mr-4 md:h-[17rem] md:w-[6.5rem] lg:mr-7 lg:h-[20rem] lg:w-[8rem] xl:mr-9 xl:h-[24rem] xl:w-[11rem]"
+            class="product-visual relative z-10 my-7 mr-4 h-[15rem] w-[6rem] shrink-0 self-start overflow-hidden rounded-[1.5rem] border shadow-inner sm:my-9 sm:mr-7 sm:h-[20rem] sm:w-[8rem] md:mr-4 md:h-[17rem] md:w-[6.5rem] lg:mr-7 lg:h-[20rem] lg:w-[8rem] xl:mr-9 xl:h-[24rem] xl:w-[11rem]"
             :class="
               index === 1
                 ? 'border-gold/35 bg-[#160e09]'

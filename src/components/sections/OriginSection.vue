@@ -7,7 +7,7 @@ import tuesteImage from "@/assets/images/tueste.webp";
 <template>
   <section
     id="origen"
-    class="section-space bg-warm-white"
+    class="origin-section section-space bg-warm-white"
     aria-labelledby="origin-title"
   >
     <div class="page-container">
@@ -24,11 +24,11 @@ import tuesteImage from "@/assets/images/tueste.webp";
           </p>
         </div>
         <ol class="grid gap-4 sm:grid-cols-3">
-          <li class="rounded-3xl bg-beige p-6">
+          <li class="process-card rounded-3xl bg-beige p-6">
             <span class="font-display text-4xl text-gold">01</span>
             <h3 class="mt-6 font-display text-2xl">Cosecha</h3>
             <figure
-              class="mt-6 aspect-square w-full overflow-hidden rounded-2xl border border-roast/10 bg-cream shadow-sm"
+              class="process-visual mt-6 aspect-square w-full overflow-hidden rounded-2xl border border-roast/10 bg-cream shadow-sm"
             >
               <img
                 :src="cultivoImage"
@@ -45,11 +45,11 @@ import tuesteImage from "@/assets/images/tueste.webp";
               cerezas alcanzan su punto óptimo de maduración.
             </p>
           </li>
-          <li class="rounded-3xl bg-cream p-6">
+          <li class="process-card rounded-3xl bg-cream p-6">
             <span class="font-display text-4xl text-gold">02</span>
             <h3 class="mt-6 font-display text-2xl">Beneficio</h3>
             <figure
-              class="mt-6 aspect-square w-full overflow-hidden rounded-2xl border border-roast/10 bg-beige shadow-sm"
+              class="process-visual mt-6 aspect-square w-full overflow-hidden rounded-2xl border border-roast/10 bg-beige shadow-sm"
             >
               <img
                 :src="procesoImage"
@@ -66,11 +66,11 @@ import tuesteImage from "@/assets/images/tueste.webp";
               secado controlados para desarrollar perfiles limpios y definidos.
             </p>
           </li>
-          <li class="rounded-3xl bg-forest p-6 text-warm-white">
+          <li class="process-card process-card-featured rounded-3xl bg-forest p-6 text-warm-white">
             <span class="font-display text-4xl text-gold">03</span>
             <h3 class="mt-6 font-display text-2xl">Tueste</h3>
             <figure
-              class="mt-6 aspect-square w-full overflow-hidden rounded-2xl border border-gold/30 bg-coffee shadow-sm"
+              class="process-visual mt-6 aspect-square w-full overflow-hidden rounded-2xl border border-gold/30 bg-coffee shadow-sm"
             >
               <img
                 :src="tuesteImage"

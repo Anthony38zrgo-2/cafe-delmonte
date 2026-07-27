@@ -5,7 +5,7 @@ import coffeeHandsCherries from "@/assets/images/coffee-hands-cherries.webp";
 <template>
   <section
     id="nuestro-cafe"
-    class="section-space relative overflow-hidden bg-cream"
+    class="about-section section-space relative overflow-hidden bg-cream"
     aria-labelledby="about-title"
   >
     <div class="leaf-pattern absolute inset-0 opacity-60"></div>
@@ -13,7 +13,7 @@ import coffeeHandsCherries from "@/assets/images/coffee-hands-cherries.webp";
       class="page-container relative grid items-center gap-12 lg:grid-cols-[.9fr_1.1fr] lg:gap-20"
     >
       <figure
-        class="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-t-full border-[1.25rem] border-forest bg-forest shadow-2xl shadow-coffee/15"
+        class="about-visual relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-t-full border-[1.25rem] border-forest bg-forest shadow-2xl shadow-coffee/15"
       >
         <img
           :src="coffeeHandsCherries"
@@ -40,7 +40,7 @@ import coffeeHandsCherries from "@/assets/images/coffee-hands-cherries.webp";
           </p>
         </figcaption>
       </figure>
-      <div>
+      <div class="about-copy">
         <p class="eyebrow">Nuestro café</p>
         <h2 id="about-title" class="display-title mt-4">
           Productores de nuestras propias variedades.
@@ -49,26 +49,26 @@ import coffeeHandsCherries from "@/assets/images/coffee-hands-cherries.webp";
           En Café Delmonte somos productores de nuestras propias variedades de
           café.
         </p>
-        <dl class="mt-10 grid gap-x-8 gap-y-7 sm:grid-cols-2">
-          <div class="border-l-2 border-gold pl-4">
+        <dl class="about-facts mt-10 grid gap-x-8 gap-y-7 sm:grid-cols-2">
+          <div class="about-fact border-l-2 border-gold pl-4">
             <dt class="text-xs font-bold uppercase tracking-wider text-forest">
               Origen
             </dt>
             <dd class="mt-2 font-display text-xl">Jaén - Cajamarca</dd>
           </div>
-          <div class="border-l-2 border-gold pl-4">
+          <div class="about-fact border-l-2 border-gold pl-4">
             <dt class="text-xs font-bold uppercase tracking-wider text-forest">
               Altura
             </dt>
             <dd class="mt-2 font-display text-xl">1500 a 2000 msnm</dd>
           </div>
-          <div class="border-l-2 border-gold pl-4">
+          <div class="about-fact border-l-2 border-gold pl-4">
             <dt class="text-xs font-bold uppercase tracking-wider text-forest">
               Proceso
             </dt>
             <dd class="mt-2 font-display text-xl">Natural, Lavado y Honey</dd>
           </div>
-          <div class="border-l-2 border-gold pl-4">
+          <div class="about-fact border-l-2 border-gold pl-4">
             <dt class="text-xs font-bold uppercase tracking-wider text-forest">
               Perfil
             </dt>
