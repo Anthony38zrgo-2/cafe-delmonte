@@ -69,8 +69,7 @@
   }
 
   .whatsapp-panel-visual img {
-    @apply h-full w-full object-contain p-3;
-    background: radial-gradient(circle at center, rgb(255 253 248 / 0.9), rgb(244 233 216 / 0.75));
+    @apply h-full w-full object-cover object-center;
   }
 
   .whatsapp-panel-visual figcaption {

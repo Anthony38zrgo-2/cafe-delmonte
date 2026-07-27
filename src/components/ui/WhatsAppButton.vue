@@ -2,7 +2,7 @@
 import { onBeforeUnmount, onMounted, ref } from "vue";
 import { COMPANY_INFO } from "@/constants/company";
 import { useWhatsApp } from "@/composables/useWhatsApp";
-import featuredCoffee from "@/assets/images/bolsa-geisha-catimor.png";
+import coffeeGrowerIllustration from "@/assets/images/cafetalero-whatsapp.png";
 
 const panelOpen = ref(false);
 const customMessage = ref("");
@@ -74,10 +74,10 @@ onBeforeUnmount(() => document.removeEventListener("keydown", handleEscape));
       <div class="whatsapp-panel-body">
         <figure class="whatsapp-panel-visual">
           <img
-            :src="featuredCoffee"
-            alt="Bolsa de café Geisha con Catimor de Café Delmonte"
-            width="1000"
-            height="2400"
+            :src="coffeeGrowerIllustration"
+            alt="Ilustración de un cafetalero sosteniendo una canasta con cerezas de café"
+            width="1086"
+            height="1448"
           />
           <figcaption>De Jaén a tu taza</figcaption>
         </figure>
