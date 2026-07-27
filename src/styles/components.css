@@ -14,5 +14,116 @@
   .btn-primary { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-forest px-6 py-3 text-sm font-bold text-warm-white shadow-lg shadow-coffee/10 transition hover:-translate-y-0.5 hover:bg-coffee; }
   .btn-light { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-warm-white/35 bg-warm-white px-6 py-3 text-sm font-bold text-coffee transition hover:-translate-y-0.5 hover:bg-cream; }
   .leaf-pattern { background-image: radial-gradient(circle at 1px 1px, rgb(196 154 87 / .18) 1px, transparent 0); background-size: 22px 22px; }
+
+  .floating-contact {
+    @apply fixed bottom-5 right-5 z-[60] grid size-14 cursor-pointer place-items-center overflow-hidden rounded-[50%_50%_50%_18%] border border-white/60 bg-gradient-to-br from-[#4ee58a] via-[#25d366] to-[#128c4a] text-white shadow-[0_16px_38px_-12px_rgba(18,140,74,0.65)] ring-1 ring-coffee/10 transition duration-300 before:pointer-events-none before:absolute before:inset-x-1 before:top-1 before:h-1/2 before:rounded-full before:bg-gradient-to-b before:from-white/30 before:to-transparent before:content-[''] hover:-translate-y-1 hover:scale-105 hover:shadow-[0_20px_45px_-12px_rgba(18,140,74,0.75)] sm:bottom-7 sm:right-7;
+  }
+
+  .floating-contact.is-active {
+    @apply scale-105 from-[#3fbc70] via-[#1da856] to-[#0f743c];
+  }
+
+  .whatsapp-glyph {
+    @apply relative z-10 grid size-8 place-items-center drop-shadow-sm;
+  }
+
+  .whatsapp-glyph svg,
+  .whatsapp-panel-mark svg {
+    @apply size-full;
+  }
+
+  .whatsapp-question-panel {
+    @apply fixed bottom-24 right-4 z-[59] max-h-[calc(100vh-7.5rem)] w-[min(46rem,calc(100vw-2rem))] overflow-y-auto rounded-[2rem_2rem_0.75rem_2rem] border border-white/60 shadow-[0_28px_80px_-28px_rgba(43,27,18,0.55)] ring-1 ring-coffee/10 sm:right-7;
+    background:
+      radial-gradient(circle at 88% 6%, rgb(255 255 255 / 0.72), transparent 11rem),
+      rgb(244 233 216 / 0.94);
+    backdrop-filter: blur(18px) saturate(118%);
+  }
+
+  .whatsapp-panel-close {
+    @apply absolute right-3 top-3 z-30 grid size-9 cursor-pointer place-items-center rounded-full border-0 bg-white/15 p-0 text-2xl leading-none text-white shadow-sm backdrop-blur-md transition hover:rotate-90 hover:bg-white/25;
+  }
+
+  .whatsapp-panel-header {
+    @apply relative z-20 flex items-center gap-3 border-b border-white/25 bg-gradient-to-br from-coffee via-roast to-forest py-5 pl-5 pr-14 text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.22)];
+  }
+
+  .whatsapp-panel-mark {
+    @apply grid size-11 place-items-center rounded-2xl border border-white/40 bg-gradient-to-br from-[#4ee58a] via-[#25d366] to-[#128c4a] p-2.5 text-white shadow-[0_10px_25px_-12px_rgba(18,140,74,0.85)];
+  }
+
+  .whatsapp-panel-header p {
+    @apply m-0 font-display text-lg font-bold;
+  }
+
+  .whatsapp-panel-header span:not(.whatsapp-panel-mark) {
+    @apply mt-0.5 block text-xs text-cream;
+  }
+
+  .whatsapp-panel-body {
+    @apply relative z-20 grid md:grid-cols-[12rem_minmax(0,1fr)];
+  }
+
+  .whatsapp-panel-visual {
+    @apply relative m-4 mb-0 min-h-48 overflow-hidden rounded-2xl border border-white/60 bg-beige shadow-[0_10px_24px_rgba(43,27,18,0.12)] md:mb-4 md:mr-0 md:min-h-0;
+  }
+
+  .whatsapp-panel-visual img {
+    @apply h-full w-full object-contain p-3;
+    background: radial-gradient(circle at center, rgb(255 253 248 / 0.9), rgb(244 233 216 / 0.75));
+  }
+
+  .whatsapp-panel-visual figcaption {
+    @apply absolute inset-x-3 bottom-3 rounded-xl bg-coffee/90 px-3 py-2 text-center text-[0.65rem] font-semibold text-white backdrop-blur;
+  }
+
+  .whatsapp-panel-content {
+    @apply min-w-0 p-5;
+  }
+
+  .whatsapp-question-panel h2 {
+    @apply relative z-20 m-0 font-display text-2xl font-bold leading-tight text-coffee;
+  }
+
+  .whatsapp-panel-description {
+    @apply relative z-20 mb-4 mt-2 text-xs leading-5 text-roast;
+  }
+
+  .whatsapp-question-list {
+    @apply relative z-20 grid gap-2;
+  }
+
+  .whatsapp-question-list a {
+    @apply flex min-h-11 items-center justify-between gap-4 rounded-xl border border-roast/15 bg-white/65 px-3 py-2 text-[0.72rem] font-bold leading-4 text-roast shadow-[0_5px_14px_rgba(43,27,18,0.08)] backdrop-blur-md transition duration-300 hover:translate-x-1 hover:border-gold/50 hover:bg-white/90 hover:text-coffee;
+  }
+
+  .whatsapp-question-list i {
+    @apply text-xl font-normal not-italic text-[#128c4a];
+  }
+
+  .whatsapp-custom-message {
+    @apply relative z-20 mt-4 rounded-2xl border border-roast/15 bg-white/60 p-3 shadow-[0_5px_14px_rgba(43,27,18,0.08)];
+  }
+
+  .whatsapp-custom-message > label {
+    @apply mb-2 block text-xs font-bold text-coffee;
+  }
+
+  .whatsapp-custom-message textarea {
+    @apply block min-h-20 w-full resize-none rounded-xl border border-roast/20 bg-white/75 px-3 py-2 text-xs leading-5 text-coffee outline-none transition placeholder:text-roast/60 focus:border-gold focus:ring-4 focus:ring-gold/15;
+    box-shadow: inset 0 1px 3px rgb(43 27 18 / 0.06);
+  }
+
+  .whatsapp-message-actions {
+    @apply mt-2 flex items-center justify-between gap-3;
+  }
+
+  .whatsapp-message-actions > span {
+    @apply text-[0.65rem] tabular-nums text-roast/70;
+  }
+
+  .whatsapp-message-actions button {
+    @apply inline-flex min-h-10 cursor-pointer items-center justify-center gap-2 rounded-full border-0 bg-forest px-4 text-xs font-bold text-white transition hover:-translate-y-0.5 hover:bg-coffee disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:translate-y-0;
+  }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; } }
