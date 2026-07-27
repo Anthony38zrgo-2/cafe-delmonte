@@ -2,9 +2,9 @@
 import { COMPANY_INFO } from "@/constants/company";
 </script>
 <template>
-  <footer class="site-footer bg-coffee py-12 text-cream">
+  <footer class="bg-coffee py-12 text-cream">
     <div
-      class="footer-inner page-container grid gap-9 border-b border-warm-white/10 pb-10 md:grid-cols-[1fr_auto] md:items-end"
+      class="page-container grid gap-9 border-b border-warm-white/10 pb-10 md:grid-cols-[1fr_auto] md:items-end"
     >
       <div>
         <p class="font-display text-3xl font-bold">Café Delmonte</p>
@@ -23,7 +23,7 @@ import { COMPANY_INFO } from "@/constants/company";
       </nav>
     </div>
     <div
-      class="footer-inner page-container flex flex-col gap-2 pt-7 text-xs text-cream/50 sm:flex-row sm:justify-between"
+      class="page-container flex flex-col gap-2 pt-7 text-xs text-cream/50 sm:flex-row sm:justify-between"
     >
       <p>
         © {{ new Date().getFullYear() }} Café Delmonte. Todos los derechos

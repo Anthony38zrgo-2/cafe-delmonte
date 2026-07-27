@@ -86,7 +86,7 @@ onBeforeUnmount(() => {
 <template>
   <Teleport to="body">
     <div
-      class="order-backdrop fixed inset-0 z-[100] grid place-items-center bg-coffee/75 p-3 backdrop-blur-sm sm:p-6"
+      class="fixed inset-0 z-[100] grid place-items-center bg-coffee/75 p-3 backdrop-blur-sm sm:p-6"
       @mousedown.self="closeModal"
     >
       <section
@@ -95,10 +95,10 @@ onBeforeUnmount(() => {
         aria-modal="true"
         aria-labelledby="order-title"
         :aria-describedby="`order-description-${product.id}`"
-        class="order-dialog flex max-h-[94svh] w-full max-w-3xl flex-col overflow-hidden rounded-[1.75rem] bg-warm-white text-coffee shadow-2xl"
+        class="flex max-h-[94svh] w-full max-w-3xl flex-col overflow-hidden rounded-[1.75rem] bg-warm-white text-coffee shadow-2xl"
       >
         <header
-          class="order-header flex items-start justify-between gap-5 border-b border-roast/10 px-5 py-5 sm:px-8 sm:py-6"
+          class="flex items-start justify-between gap-5 border-b border-roast/10 px-5 py-5 sm:px-8 sm:py-6"
         >
           <div>
             <h2
@@ -136,7 +136,7 @@ onBeforeUnmount(() => {
         </header>
 
         <form
-          class="order-form overflow-y-auto px-5 py-6 sm:px-8 sm:py-7"
+          class="overflow-y-auto px-5 py-6 sm:px-8 sm:py-7"
           @submit.prevent="submitOrder"
         >
           <fieldset>

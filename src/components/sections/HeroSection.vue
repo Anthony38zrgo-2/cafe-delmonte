@@ -8,7 +8,7 @@ const { whatsappUrl } = useWhatsApp();
 <template>
   <section
     id="inicio"
-    class="cafe-hero relative isolate min-h-[calc(100svh-4.5rem)] overflow-hidden bg-coffee text-warm-white"
+    class="relative isolate min-h-[calc(100svh-4.5rem)] overflow-hidden bg-coffee text-warm-white"
   >
     <img
       :src="heroImage"
@@ -17,7 +17,7 @@ const { whatsappUrl } = useWhatsApp();
       fetchpriority="high"
     />
     <div
-      class="hero-overlay absolute inset-0 bg-gradient-to-r from-coffee via-coffee/90 to-coffee/15"
+      class="absolute inset-0 bg-gradient-to-r from-coffee via-coffee/90 to-coffee/15"
     ></div>
     <div
       class="absolute inset-0 bg-gradient-to-t from-coffee/75 via-transparent to-transparent"
@@ -25,9 +25,9 @@ const { whatsappUrl } = useWhatsApp();
     <div
       class="page-container relative flex min-h-[calc(100svh-4.5rem)] items-center py-20"
     >
-      <div class="hero-content-panel max-w-3xl">
+      <div class="max-w-3xl">
         <p
-          class="hero-eyebrow mb-6 flex items-center gap-3 text-xs font-bold uppercase tracking-[.24em] text-gold"
+          class="mb-6 flex items-center gap-3 text-xs font-bold uppercase tracking-[.24em] text-gold"
         >
           <span class="h-px w-10 bg-gold"></span>CAFÉ DE ESPECIALIDAD DE JAÉN,
           CAJAMARCA
@@ -53,7 +53,7 @@ const { whatsappUrl } = useWhatsApp();
           >
         </div>
         <dl
-          class="hero-stats mt-14 grid max-w-2xl grid-cols-3 gap-5 border-t border-warm-white/20 pt-7"
+          class="mt-14 grid max-w-2xl grid-cols-3 gap-5 border-t border-warm-white/20 pt-7"
         >
           <div>
             <dt
